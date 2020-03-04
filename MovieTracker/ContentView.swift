@@ -10,8 +10,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Shibu Daniel")
-            .font(.largeTitle)
+        VStack {
+            Text("Shibu Daniel")
+                .font(.largeTitle)
+            Text("Sherin George")
+        }
     }
 }
 
